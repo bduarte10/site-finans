@@ -9,5 +9,22 @@
 }
 
 footer p a {
-	margin: 5px 15px;
+	margin: 5px 12px;
+}
+
+@media (max-width: 576px) {
+	.display-4 {
+		font-size: 2.5rem;
+	}
+
+	#redes-sociais {
+		justify-content: center;
+	}
+
+}
+
+@media (min-width: 576px) {
+	#redes-sociais {
+		justify-content: flex-end;
+	}
 }
